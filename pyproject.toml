@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "student-performance-indicator"
+version = "0.0.1"
+description = "A machine learning project to analyze student performance."
+authors = [
+    { name="Nagendra", email="nagendranagi425@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["student_performance"]
